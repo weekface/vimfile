@@ -25,10 +25,7 @@ set hlsearch
 " 不生成swp文件
 set noswapfile
 
-" tab宽度  
-set tabstop=2  
-set cindent shiftwidth=4  
-set autoindent shiftwidth=4  
+
 filetype plugin indent on  
 
 " 把 F8 映射到 启动NERDTree插件  
@@ -64,3 +61,12 @@ let Tlist_Use_Right_Window=1
 
 " 让nerdtree show hidden files and folders
 let NERDTreeShowHidden=1
+
+" tab宽度  
+set tabstop=2 shiftwidth=2 softtabstop=2
+" set list
+set listchars=tab:,.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
+set laststatus=2
+set tabstop=2  
+set cindent shiftwidth=4  
+set autoindent shiftwidth=4  
