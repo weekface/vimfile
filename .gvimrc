@@ -10,5 +10,5 @@
      \endif<CR>  
   
 " 启动gvim时窗口的大小  
- set lines=33 columns=113  
+" set lines=33 columns=113  
 

@@ -4,7 +4,10 @@ set rtp+=~/.vim/vundle/
 call vundle#rc()
 source ~/.vim/vundle_rc
 
-set guifont=Monaco\ 12  
+" set guifont=Ubuntu\ Mono\ 12
+
+set guifont=Monaco\ 10
+
 " 设定文件浏览器目录为当前目录  
 set bsdir=buffer  
 " 设置编码  
@@ -21,20 +24,24 @@ set number
 set hlsearch  
 " 不生成swp文件
 set noswapfile
+
 " tab宽度  
 set tabstop=2  
 set cindent shiftwidth=4  
 set autoindent shiftwidth=4  
 filetype plugin indent on  
+
 " 把 F8 映射到 启动NERDTree插件  
-map <F8> :NERDTree<CR>  
+" map <F8> :NERDTree<CR>  
 " 把 CTRL-S 映射为 保存,因为这个操作做得太习惯了  
-imap <C-S> <C-C>:w<CR>  
-colorscheme railscasts
+" imap <C-S> <C-C>:w<CR>  
+
 function Maximize_Window()
 	silent !wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
 endfunction
+
 filetype plugin on
+
 " 修改swapfile路径
 set dir=~/.vim/backup/
 let g:rsenseHome = "/usr/lib/rsense-0.3"
