@@ -1,8 +1,8 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 set rtp+=~/.vim/vundle/
-call vundle#rc()
 source ~/.vim/vundle_rc
+call vundle#rc()
 
 " set guifont=Ubuntu\ Mono\ 12
 

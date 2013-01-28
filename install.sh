@@ -1,10 +1,12 @@
 mkdir -p ~/tmp
-mv .vim ~/tmp/vim-backup
+rm -rf ~/tmp/vim-backup
+mkdir -p ~/.vim
+mv ~/.vim ~/tmp/vim-backup
 
 git clone git@github.com:blogsoso/vimfile.git ~/.vim
 cd ~/.vim
 
-mkdir ~/.vim/bundle
+mkdir -p ~/.vim/bundle
 
 # cp .vimrc ~/.vimrc
 # cp .gvimrc ~/.gvimrc
@@ -15,7 +17,8 @@ rm ~/.gvimrc
 ln -s ~/.vim/.vimrc ~/.vimrc
 ln -s ~/.vim/.gvimrc ~/.gvimrc
 
-cd vundle && git clone git://github.com/gmarik/vundle.git .
+mkdir -p ~/.vim/vundle
+cd ~/.vim/vundle && git clone git://github.com/gmarik/vundle.git .
 vim +BundleInstall +qall
 
 # # install monaco font
