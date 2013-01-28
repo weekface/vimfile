@@ -64,8 +64,8 @@ let NERDTreeShowHidden=1
 
 " tab宽度  
 set tabstop=2 shiftwidth=2 softtabstop=2
-" set list
-set listchars=tab:,.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
+set list
+set listchars=tab:,.,trail:.,extends:#,nbsp:. " 高亮显示结尾没有用的空格等，Highlight problematic whitespace
 set laststatus=2
 set tabstop=2  
 set cindent shiftwidth=4  
