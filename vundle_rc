@@ -2,6 +2,8 @@
 " required vundles 
 Bundle 'gmarik/vundle'
 
+Bundle 'pangloss/vim-javascript'
+
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/nerdtree'
