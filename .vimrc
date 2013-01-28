@@ -67,6 +67,6 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 set list
 set listchars=tab:,.,trail:.,extends:#,nbsp:. " 高亮显示结尾没有用的空格等，Highlight problematic whitespace
 set laststatus=2
-set tabstop=2  
-set cindent shiftwidth=4  
-set autoindent shiftwidth=4  
+set tabstop=2
+set cindent shiftwidth=4
+set autoindent shiftwidth=4
