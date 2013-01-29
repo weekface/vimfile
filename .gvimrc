@@ -1,6 +1,7 @@
 "把gvim的菜单和工具栏隐藏掉,按F2可调出,再按隐藏  
 
- set guifont=Monospace
+ " set guifont=Monospace
+ set guifont=Monaco
  set guioptions-=m
  set guioptions-=T
  map <silent> <F2> :if &guioptions =~# 'T' <Bar>
