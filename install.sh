@@ -17,6 +17,9 @@ rm ~/.gvimrc
 ln -s ~/.vim/.vimrc ~/.vimrc
 ln -s ~/.vim/.gvimrc ~/.gvimrc
 
+touch ~/.vim/.vimrc_local
+touch ~/.vim/.gvimrc_local
+
 mkdir -p ~/.vim/vundle
 cd ~/.vim/vundle && git clone git://github.com/gmarik/vundle.git .
 vim +BundleInstall +qall

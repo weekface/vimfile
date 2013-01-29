@@ -1,2 +1,5 @@
 **.swp
 bundle
+
+.vimrc_local
+.gvimrc_local

@@ -15,3 +15,6 @@
 " 启动gvim时窗口的大小  
 " set lines=33 columns=113  
 
+" local
+  source ~/.vim/.gvimrc_local
+

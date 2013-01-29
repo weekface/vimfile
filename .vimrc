@@ -70,3 +70,6 @@ set laststatus=2
 set tabstop=2
 set cindent shiftwidth=4
 set autoindent shiftwidth=4
+
+" local
+source ~/.vim/.vimrc_local
