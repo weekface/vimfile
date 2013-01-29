@@ -1,5 +1,5 @@
-## Happy Vimfile
+## Install processes:
 
-sudo apt-get install vim vim-gtk
+* sudo apt-get install vim vim-gtk
 
-bash <(curl -s https://raw.github.com/blogsoso/vimfile/master/install.sh)
+* bash <(curl -s https://raw.github.com/weekface/vimfile/master/install.sh)
