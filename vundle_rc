@@ -12,7 +12,7 @@ Bundle 'nelstrom/vim-blackboard'
 
 Bundle 'taglist.vim'
 Bundle 'corntrace/bufexplorer'
-Bundle 'Command-T'
+" Bundle 'Command-T'
 Bundle 'tpope/vim-fugitive'
 Bundle 'juvenn/mustache.vim'
 
