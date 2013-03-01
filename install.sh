@@ -25,6 +25,8 @@ mkdir -p ~/.vim/vundle
 cd ~/.vim/vundle && git clone git://github.com/gmarik/vundle.git .
 vim +BundleInstall +qall
 
+rm -rf ~/.vim/bundle/snipmate.vim/snippets
+
 # install monaco font
 cd ~/tmp
 wget http://www.gringod.com/wp-upload/MONACO.TTF
