@@ -17,6 +17,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'juvenn/mustache.vim'
 
 Bundle 'mileszs/ack.vim'
+Bundle 'rking/ag.vim'
 Bundle 'ervandew/supertab'
 Bundle 'msanders/snipmate.vim'
 Bundle 'weekface/snipmate-snippets'
