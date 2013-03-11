@@ -41,3 +41,6 @@ Bundle 'jpo/vim-railscasts-theme'
 " F11全屏, F6 Open
 Bundle 'xolox/vim-shell'
 
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+
