@@ -145,12 +145,9 @@ let g:Powerline_symbols = 'fancy'
 "let g:vimim_chinese_frequency = 20
 "
 "" vimim end
-if $COLORTERM == 'gnome-terminal'
-    set term=gnome-256color
-    colorscheme railscasts
-else
-    colorscheme default
-endif
+
+colorscheme vividchalk
+
 
 "" FuzzyFinder
 map ,,  :FufCoverageFile!<cr>
