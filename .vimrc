@@ -23,7 +23,7 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 set list
 set listchars=tab:,.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
 set laststatus=2
-"set linespace=0 " No extra spaces between rows"
+set linespace=5
 set wildmenu " show list instead of just completing
 set wildmode=list:longest,full " command <Tab> completion, list matches, then longest common part, then all.
 
@@ -101,7 +101,7 @@ nnoremap <silent> <leader>gd :Gdiff<CR>
 nnoremap <silent> <leader>gc :Gcommit<CR>
 nnoremap <silent>gb :Gblame<CR>
 nnoremap <silent>nt :BufExplorer<CR>
-nnoremap <silent>tt :TagbarToggle<CR>
+" nnoremap <silent>tt :TagbarToggle<CR>
 nnoremap <silent> <leader>gl :Glog<CR>
 nnoremap <silent> <leader>gp :Git push<CR>
 " }
