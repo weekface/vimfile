@@ -9,7 +9,7 @@ filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
 compiler ruby         " Enable compiler support for ruby
-
+set noswapfile
 set autoindent
 set hlsearch
 set incsearch
