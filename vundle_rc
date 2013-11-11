@@ -17,7 +17,8 @@ Bundle 'juvenn/mustache.vim'
 
 Bundle 'mileszs/ack.vim'
 Bundle 'ervandew/supertab'
-" Bundle 'msanders/snipmate.vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'msanders/snipmate.vim'
 " Bundle 'weekface/snipmate-snippets'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'vim-ruby/vim-ruby'
@@ -38,6 +39,6 @@ Bundle 'jpo/vim-railscasts-theme'
 " F11全屏, F6 Open
 Bundle 'xolox/vim-shell'
 
-Bundle 'L9'
-Bundle 'FuzzyFinder'
+" Bundle 'L9'
+" Bundle 'FuzzyFinder'
 
