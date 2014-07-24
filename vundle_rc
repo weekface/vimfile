@@ -3,7 +3,6 @@
 Bundle 'gmarik/vundle'
 
 Bundle 'pangloss/vim-javascript'
-" Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/nerdtree'
@@ -18,8 +17,6 @@ Bundle 'juvenn/mustache.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'ervandew/supertab'
 Bundle 'kien/ctrlp.vim'
-" Bundle 'msanders/snipmate.vim'
-" Bundle 'weekface/snipmate-snippets'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-repeat'
@@ -27,14 +24,10 @@ Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-vividchalk'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-ragtag'
-Bundle 'tpope/vim-rake'
 Bundle 'fatih/vim-go'
 
 " F11全屏, F6 Open
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-shell'
 Bundle 'moll/vim-node'
-
-" Bundle 'L9'
-" Bundle 'FuzzyFinder'
 
