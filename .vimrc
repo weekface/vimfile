@@ -58,6 +58,8 @@ let g:speckyWindowType = 1
 "let g:vikiUseParentSuffix = 1
 "autocmd! BufRead,BufNewFile *.viki set filetype=viki
 
+inoremap <C-p> <C-x><C-o>
+
 "" 快速查找
 noremap <silent> <leader>ff :FufFile!<CR>
 noremap <silent> <leader>fa :FufCoverageFile!<CR>
