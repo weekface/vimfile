@@ -1,9 +1,11 @@
 set guioptions:
 "set guifont=Bitstream\ Vera\ Sans\ Mono\ 13
-set guifont=Ubuntu\ Mono\ 18
+" set guifont=Ubuntu\ Mono\ 18
+set guifont=Monaco\ 12
 set linespace=6
 "set guifont=monaco\ 9
-colorscheme vividchalk
+" colorscheme vividchalk
+colorscheme railscasts
 set showcmd
 set nowrap
 behave mswin
