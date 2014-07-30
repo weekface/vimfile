@@ -55,6 +55,7 @@ case $ANSWER in
   cd $GOPATH/src/github.com/nsf/gocode/vim
   ./update.sh
   gocode set propose-builtins true
+  echo "安装成功！"
   ;;
 [Nn])
   echo "已经跳过安装..."
