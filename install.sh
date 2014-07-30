@@ -43,7 +43,7 @@ sudo fc-cache -f -v
 echo "下面为golang开发进行的特殊配置，包括："
 echo "安装gocode自动提示"
 echo "安装godef自动跳转"
-echo "不需要的请注释后安装!确定安装吗？(Y/N)"
+echo "不需要的请勿安装!确定安装吗？(Y/N)"
 
 read ANSWER
 case $ANSWER in
