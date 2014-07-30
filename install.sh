@@ -43,6 +43,7 @@ sudo fc-cache -f -v
 source ~/.bashrc
 cp -r $GOROOT/misc/vim/* ~/.vim/
 go get -u github.com/nsf/gocode
+go get code.google.com/p/rog-go/exp/cmd/godef
 cd $GOPATH/src/github.com/nsf/gocode/vim
 ./update.sh
 gocode set propose-builtins true
