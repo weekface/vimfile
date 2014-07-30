@@ -4,8 +4,8 @@ set guioptions:
 set guifont=Monaco\ 12
 set linespace=6
 "set guifont=monaco\ 9
-" colorscheme vividchalk
-colorscheme railscasts
+colorscheme vividchalk
+" colorscheme railscasts
 set showcmd
 set nowrap
 behave mswin
