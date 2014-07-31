@@ -5,12 +5,10 @@ Bundle 'gmarik/vundle'
 Bundle 'pangloss/vim-javascript'
 Bundle 'tpope/vim-rails'
 Bundle 'scrooloose/nerdtree'
-
 Bundle 'corntrace/bufexplorer'
 Bundle 'juvenn/mustache.vim'
-
 Bundle 'mileszs/ack.vim'
-" Bundle 'ervandew/supertab'
+Bundle 'ervandew/supertab'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'vim-ruby/vim-ruby'
@@ -21,8 +19,6 @@ Bundle 'tpope/vim-ragtag'
 Bundle 'fatih/vim-go'
 Bundle 'fatih/molokai'
 Bundle 'SirVer/ultisnips'
-
-" F11全屏, F6 Open
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-shell'
 Bundle 'moll/vim-node'
