@@ -7,6 +7,6 @@ $ chmod +x install.sh
 $ ./install.sh
 ```
 
-## Screencasts
+## Screenshot
 
 ![VIM](https://raw.github.com/weekface/vimfile/master/vim.png)
