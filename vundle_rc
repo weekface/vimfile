@@ -20,9 +20,7 @@ Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-ragtag'
 Bundle 'fatih/vim-go'
 Bundle 'fatih/molokai'
-Bundle 'Shougo/neocomplete'
-Bundle 'Shougo/neosnippet'
-Bundle 'Shougo/neosnippet-snippets'
+Bundle 'SirVer/ultisnips'
 
 " F11全屏, F6 Open
 Bundle 'xolox/vim-misc'
