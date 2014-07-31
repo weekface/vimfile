@@ -24,8 +24,8 @@ Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-vividchalk'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-ragtag'
-Bundle 'Blackrush/vim-gocode'
-Bundle 'dgryski/vim-godef'
+Bundle 'fatih/vim-go'
+Bundle 'fatih/molokai'
 
 " F11全屏, F6 Open
 Bundle 'xolox/vim-misc'
