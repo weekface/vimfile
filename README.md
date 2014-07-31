@@ -1,8 +1,11 @@
 ## Install processes:
 
-* sudo apt-get install vim vim-gnome ack-grep ctags
-
-* bash <(curl -s https://raw.github.com/weekface/vimfile/master/install.sh)
+```bash
+$ sudo apt-get install vim vim-gnome ack-grep ctags
+$ wget https://raw.github.com/weekface/vimfile/master/install.sh
+$ chmod +x install.sh
+$ ./install.sh
+```
 
 ## Screencasts:
 
