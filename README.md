@@ -1,4 +1,4 @@
-## Install processes:
+## Install
 
 ```bash
 $ sudo apt-get install vim vim-gnome ack-grep ctags
@@ -7,6 +7,6 @@ $ chmod +x install.sh
 $ ./install.sh
 ```
 
-## Screencasts:
+## Screencasts
 
 ![VIM](https://raw.github.com/weekface/vimfile/master/vim.png)
