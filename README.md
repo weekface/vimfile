@@ -5,7 +5,7 @@ $ sudo apt-get install vim vim-gnome ack-grep ctags
 $ cd /tmp
 $ wget https://raw.github.com/weekface/vimfile/master/install.sh
 $ chmod +x install.sh
-$ ./install.sh
+$ sudo ./install.sh
 ```
 
 ## Screenshot
