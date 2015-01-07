@@ -19,7 +19,7 @@ set ruler
 set nobackup
 set showcmd
 "set cursorline
-set tabstop=8 shiftwidth=8 softtabstop=8
+set tabstop=4 shiftwidth=4 softtabstop=4
 "set list
 set listchars=tab:,.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
 set laststatus=2
