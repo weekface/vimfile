@@ -23,4 +23,4 @@ Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-shell'
 Bundle 'moll/vim-node'
 Bundle 'tpope/vim-fugitive'
-
+Bundle 'Valloric/YouCompleteMe'
