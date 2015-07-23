@@ -1,3 +1,5 @@
+sudo apt-get install vim vim-gnome ack-grep ctags build-essential cmake python-dev
+
 mkdir -p ~/tmp
 rm -rf ~/tmp/vim-backup
 mkdir -p ~/.vim
