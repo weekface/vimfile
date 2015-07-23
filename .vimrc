@@ -70,4 +70,3 @@ nnoremap <silent>nt :BufExplorer<CR>
 nnoremap <silent>tt :TagbarToggle<CR>
 
 let g:Powerline_symbols = 'fancy'
-colorscheme vividchalk
