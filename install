@@ -22,11 +22,12 @@ touch ~/.vim/.gvimrc_local
 mkdir -p ~/.vim/vundle
 cd ~/.vim/vundle && git clone git://github.com/gmarik/vundle.git .
 vim +BundleInstall +qall
-vim +GoInstallBinaries +qall
 
 cd ~/.vim/bundle/YouCompleteMe
 ./install.sh --gocode-completer
 cd -
+
+vim +GoInstallBinaries +qall
 
 # install monaco font
 cd ~/tmp
