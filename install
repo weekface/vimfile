@@ -27,10 +27,6 @@ mkdir -p ~/.vim/vundle
 cd ~/.vim/vundle && git clone git://github.com/gmarik/vundle.git .
 vim +BundleInstall +qall
 
-cd ~/.vim/bundle/YouCompleteMe
-./install.sh --gocode-completer
-cd -
-
 # install monaco font
 cd ~/tmp
 wget http://www.gringod.com/wp-upload/MONACO.TTF
