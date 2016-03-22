@@ -2,7 +2,7 @@
 
 set -o errexit
 
-sudo apt-get install vim vim-gnome ack-grep ctags build-essential cmake python-dev
+sudo apt-get install vim vim-gnome ack-grep ctags build-essential cmake python-dev git
 
 mkdir -p ~/tmp
 rm -rf ~/tmp/vim-backup
