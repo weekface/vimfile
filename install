@@ -31,8 +31,6 @@ cd ~/.vim/bundle/YouCompleteMe
 ./install.sh --gocode-completer
 cd -
 
-vim +GoInstallBinaries +qall
-
 # install monaco font
 cd ~/tmp
 wget http://www.gringod.com/wp-upload/MONACO.TTF
