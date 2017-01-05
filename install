@@ -2,7 +2,7 @@
 
 set -o errexit
 
-sudo apt-get install vim vim-gnome ack-grep ctags build-essential cmake python-dev git
+sudo apt-get install vim ack-grep ctags build-essential cmake python-dev git
 
 mkdir -p ~/tmp
 rm -rf ~/tmp/vim-backup
@@ -10,9 +10,6 @@ mkdir -p ~/.vim
 mv ~/.vim ~/tmp/vim-backup
 
 git clone https://github.com/weekface/vimfile.git ~/.vim
-
-cd ~/.vim
-mkdir -p ~/.vim/bundle
 
 rm ~/.vimrc
 rm ~/.gvimrc
@@ -26,10 +23,4 @@ touch ~/.vim/.gvimrc_local
 mkdir -p ~/.vim/vundle
 cd ~/.vim/vundle && git clone git://github.com/gmarik/vundle.git .
 vim +BundleInstall +qall
-
-# install monaco font
-cd ~/tmp
-wget http://www.gringod.com/wp-upload/MONACO.TTF
-sudo cp MONACO.TTF /usr/share/fonts/truetype/
-git clone https://github.com/pdf/ubuntu-mono-powerline-ttf.git ~/.fonts/ubuntu-mono-powerline-ttf
-sudo fc-cache -f -v
+vim +GoInstallBinaries +qall
