@@ -1,26 +1,17 @@
 " let Vundle manage Vundle
-" required vundles 
+" required vundles
 Bundle 'gmarik/vundle'
-
-Bundle 'pangloss/vim-javascript'
-Bundle 'tpope/vim-rails'
 Bundle 'scrooloose/nerdtree'
 Bundle 'corntrace/bufexplorer'
-Bundle 'juvenn/mustache.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'ervandew/supertab'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/powerline'
-Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-vividchalk'
-Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-ragtag'
 Bundle 'fatih/vim-go'
 Bundle 'fatih/molokai'
 Bundle 'SirVer/ultisnips'
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-shell'
-Bundle 'moll/vim-node'
 Bundle 'tpope/vim-fugitive'
-Bundle 'Valloric/YouCompleteMe'
