@@ -1,5 +1,5 @@
 set guioptions:
-set guifont=Monaco\ 12
+set guifont=Droid\ Sans\ Mono\ 12
 set showcmd
 set nowrap
 behave mswin
