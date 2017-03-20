@@ -6,6 +6,9 @@ Plug 'corntrace/bufexplorer'
 Plug 'mileszs/ack.vim'
 Plug 'fatih/vim-go'
 Plug 'fatih/molokai'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 
 call plug#end() 
 
