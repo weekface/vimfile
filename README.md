@@ -1,4 +1,4 @@
-## Ubuntu Install
+## Installation for ubuntu
 
 ```bash
 $ curl -s https://raw.githubusercontent.com/weekface/vimfile/master/install | bash
