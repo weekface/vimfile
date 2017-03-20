@@ -8,7 +8,7 @@ Plug 'fatih/vim-go'
 Plug 'fatih/molokai'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-
+Plug 'tpope/vim-fugitive'
 
 call plug#end() 
 
