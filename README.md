@@ -1,11 +1,7 @@
-## Installation for ubuntu
+## Installation
 
-```bash
-$ curl -s https://raw.githubusercontent.com/weekface/vimfile/master/install | bash
-$ vim
-:PlugInstall
-:GoInstallBinaries
-:q
+```
+$ wget https://raw.githubusercontent.com/weekface/vimfile/master/vimrc -O $HOME/.vimrc
 ```
 
 ## Screenshot
