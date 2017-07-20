@@ -6,4 +6,4 @@ $ wget https://raw.githubusercontent.com/weekface/vimfile/master/vimrc -O $HOME/
 
 ## Screenshot
 
-![VIM](https://raw.github.com/weekface/vimfile/master/vim.png)
+![VIM](https://raw.githubusercontent.com/weekface/vimfile/master/vim.png)
