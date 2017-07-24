@@ -534,6 +534,9 @@ let g:vim_markdown_frontmatter=1
 " via the command :InstantMarkdownPreview
 let g:instant_markdown_autostart = 0
 
+" Telling vim-go to use goimports when saving the file
+let g:go_fmt_command = "goimports"
+
 noremap <silent> <leader>tt :NERDTreeToggle<CR>
 noremap <silent> <leader>tl :Tlist<CR>
 noremap <silent> <leader>ts :call ToggleSketch()<CR>
