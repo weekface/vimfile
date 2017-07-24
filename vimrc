@@ -24,6 +24,8 @@ Plugin 'gmarik/vundle'
 
 " Plugins from github repos:
 Plugin 'corntrace/bufexplorer'
+" Ack
+Plugin 'mileszs/ack.vim'
 " Better file browser
 Plugin 'scrooloose/nerdtree'
 " Code commenter
