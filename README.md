@@ -2,6 +2,7 @@
 
 ```
 $ wget https://raw.githubusercontent.com/weekface/vimfile/master/vimrc -O $HOME/.vimrc
+$ vim -E -u $HOME/.vimrc +qall
 ```
 
 ## Screenshot
